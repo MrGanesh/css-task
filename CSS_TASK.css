@@ -1,0 +1,67 @@
+.img-property {
+    border-radius: 20px;
+    outline-style: dashed;
+    filter: grayscale(100%);
+}
+
+.cursor:hover {
+    cursor: cell !important;
+    margin: 10px;
+}
+
+.hover-effect:hover {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.check-border {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.translate-image:hover {
+    transform: translate(50px, 100px);
+    margin: 10px;
+}
+
+.change-bg {
+    background-image: url("https://camo.githubusercontent.com/da092347de875d0327cd7419f20b2af6866b43deafeeddd038e7428b0938ad13/68747470733a2f2f656e637279707465642d74626e302e677374617469632e636f6d2f696d616765733f713d74626e253341414e6439476352315775514c486a616f71464c5142564a54506d71564736576649774b326a447866315241796343514a4a6875686a69743626757371703d434155");
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.strech {
+    border: 10px solid transparent;
+    border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTar0Xfm1qifGuUkNcj-_zC3AnM8p9l7zPS-1OnNL5fYd4NEtJv&s") 30 stretch;
+    margin: 10px;
+}
+
+.remove-opacity {
+    opacity: 0;
+}
+
+.right-pos {
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+}
+
+.linear {
+    background-image: linear-gradient(white, red, blue, green) !important;
+}
+
+.trans {
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .change-font {
+        font-size: 40px;
+    }
+}
